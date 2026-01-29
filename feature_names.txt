@@ -1,0 +1,52 @@
+registration_month
+order_frequency
+customer_lifetime_days
+num_orders
+city_customer_count
+state_customer_count
+city_avg_spending
+clv_estimate
+segment_avg_spending
+registration_day_of_week
+avg_order_value
+lifetime_to_recency_ratio
+registration_year
+registration_is_weekend
+state_churn_rate
+segment_median_orders
+state_avg_spending
+days_since_last_order
+value_tier_Low Value
+value_tier_Medium Value
+value_tier_Non-Spender
+engagement_level_Medium
+engagement_level_None
+recency_segment_Lost (365+ days)
+recency_segment_Moderate (91-180 days)
+recency_segment_Never Ordered
+recency_segment_Recent (31-90 days)
+recency_category_Moderate
+recency_category_Never Ordered
+recency_category_Recent
+recency_category_Very Inactive
+rfm_segment_Champions
+rfm_segment_Lost
+rfm_segment_Loyal
+rfm_segment_Need Attention
+rfm_segment_Other
+rfm_segment_Potential Loyalist
+time_since_last_order_cat_31-90 days
+time_since_last_order_cat_91-180 days
+time_since_last_order_cat_999+ (Never)
+city_Dallas
+city_Houston
+city_Los Angeles
+city_New York
+city_Philadelphia
+city_Phoenix
+city_San Antonio
+city_San Diego
+city_San Jose
+rfm_score_encoded
+full_name_target_encoded
+email_target_encoded
