@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "streamlit_app.py",
+      "use": "@vercel/python"
+    }
+  ]
+}
