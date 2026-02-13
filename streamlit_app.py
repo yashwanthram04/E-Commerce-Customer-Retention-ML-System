@@ -83,7 +83,6 @@ with st.sidebar:
     st.header("ℹ️ About")
     st.write("This system predicts customer churn using machine learning.")
     st.write("**Model Version:** v2.1")
-    st.write("**Last Updated:** 2024-01-15")
 
 # PAGE 1: Single Prediction
 if page == "Single Prediction":
@@ -301,7 +300,6 @@ elif page == "Model Info":
         st.subheader("📋 Model Details")
         st.write(f"**Model Type:** {type(model).__name__ if model else 'Unknown'}")
         st.write(f"**Version:** v2.1")
-        st.write(f"**Training Date:** 2024-01-15")
         st.write(f"**Features:** {len(feature_names) if feature_names else 0}")
 
         st.subheader("📊 Performance Metrics")
@@ -324,11 +322,6 @@ elif page == "Model Info":
         st.success("**Low Risk (<40%)**")
         st.write("Maintain regular engagement")
 
-        st.subheader("🔄 Model Updates")
-        st.write("Model is retrained quarterly with new data")
-        st.write("Last retrain: Q4 2024")
-        st.write("Next retrain: Q1 2025")
-
     # Feature importance (if available)
     if hasattr(model, 'feature_importances_'):
         st.subheader("⭐ Top 10 Important Features")
@@ -344,4 +337,4 @@ elif page == "Model Info":
 
 # Footer
 st.markdown("---")
-st.markdown("© 2024 Churn Prediction System | Powered by Machine Learning")
+st.markdown("© 2025 Churn Prediction System | Powered by Machine Learning")
